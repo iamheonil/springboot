@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<p>So eAsy~!</p>
+<p>/main</p>
 
 </body>
 </html>
