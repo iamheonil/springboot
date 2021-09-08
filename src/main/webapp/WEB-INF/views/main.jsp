@@ -41,6 +41,31 @@
             font-size: 48px;
             color: #ffffff;
         }
+
+        .text button {
+            width: 11%;
+            height: 45px;
+            color:#fff;
+            position: relative;
+            background: #004fff;
+            font-size: 22px;
+            border:none;
+            border-radius: 20px;
+            box-shadow: 0 4px 16px rgba(0,79,255,0.3);
+            transition:0.3s;
+            transform: translate(-50%,-50%);
+        }
+
+        .text button:hover {
+            background: rgba(0,79,255,0.9);
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,79,255,0.6);
+        }
+
+        .text button:focus {
+            outline:0;
+        }
+
     </style>
 </head>
 <body>
@@ -50,7 +75,8 @@
         <source src="//bit.ly/3kYMF9A" type="video/mp4">
     </video>
     <div class="text">
-        <p>Lorem Ipsum Dolor</p>
+        <p>더 많이, 더 적게</p>
+        <button class="text">게임 시작</button>
     </div>
 </div>
 
