@@ -22,6 +22,7 @@
             overflow: hidden;
             margin: 0px auto;
             position: relative;
+            background: lightgray;
         }
 
         video {
@@ -71,11 +72,7 @@
 <body>
 
 <div class="bg">
-    <video muted autoplay loop>
-        <source src="//bit.ly/3kYMF9A" type="video/mp4">
-    </video>
     <div class="text">
-        <p>더 많이, 더 적게</p>
         <button class="text" onclick="location.href='/game'">게임 시작</button>
     </div>
 </div>

@@ -11,4 +11,7 @@ public class mainController {
         return "main";
     }
 
+    @RequestMapping(value = "/game")
+    public String game() {return "game"; }
+
 }
