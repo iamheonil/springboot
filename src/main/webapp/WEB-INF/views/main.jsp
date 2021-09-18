@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>더 많이 더 적게</title>
+    <title>더 많이 더 많이</title>
 
     <style>
         body {
@@ -75,7 +75,7 @@
         <source src="//bit.ly/3kYMF9A" type="video/mp4">
     </video>
     <div class="text">
-        <p>더 많이, 더 적게</p>
+        <p>더 많이! 더 많이!</p>
         <button class="text" onclick="location.href='/game'">게임 시작</button>
     </div>
 </div>

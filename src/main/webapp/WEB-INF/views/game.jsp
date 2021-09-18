@@ -46,34 +46,86 @@
         .text button {
             width: 11%;
             height: 45px;
-            color:#fff;
+            color: #fff;
             position: relative;
             background: #004fff;
             font-size: 22px;
-            border:none;
+            border: none;
             border-radius: 20px;
-            box-shadow: 0 4px 16px rgba(0,79,255,0.3);
-            transition:0.3s;
-            transform: translate(-50%,-50%);
+            box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
+            transition: 0.3s;
+            transform: translate(-50%, -50%);
         }
 
         .text button:hover {
-            background: rgba(0,79,255,0.9);
+            background: rgba(0, 79, 255, 0.9);
             cursor: pointer;
-            box-shadow: 0 2px 4px rgba(0,79,255,0.6);
+            box-shadow: 0 2px 4px rgba(0, 79, 255, 0.6);
         }
 
         .text button:focus {
-            outline:0;
+            outline: 0;
+        }
+
+        /* 슬라이더 크기 설정 */
+        #slider {
+            height: 200px;
+            width: 100%;
+        }
+
+        /* 색상 설정 */
+        #slider > div:nth-child(1) {
+            background-color: rgb(152, 255, 121);
+        }
+
+        #slider > div:nth-child(2) {
+            background-color: rgb(121, 255, 237);
+        }
+
+        #slider > div:nth-child(3) {
+            background-color: rgb(121, 168, 255);
+        }
+
+        #slider > div:nth-child(4) {
+            background-color: rgb(195, 121, 255);
+        }
+
+        #slider > div:nth-child(5) {
+            background-color: rgb(255, 121, 222);
+        }
+
+        #slider > div:nth-child(6) {
+            background-color: rgb(255, 121, 121);
+        }
+
+        #slider > div:nth-child(7) {
+            background-color: rgb(255, 253, 121);
         }
 
     </style>
+
+    <script>
+
+        // 새로 생성
+        var dom = document.createElement('div');
+        dom.className = 'slider'
+        dom.style.position = 'relative';
+        dom.style.overflow = 'hidden';
+        dom.style.height = '100%';
+        dom.style.left = 0;
+        dom.style.transition = 'left .5s';
+        dom.style.width = totalCount * sliderItemWidth + 'px';
+
+    </script>
+
 </head>
 <body>
 
 <div class="bg">
-    <div class="text">
-        <button class="text" onclick="location.href='/game'">게임 시작</button>
+    <div id="slider">
+        <div>테스트1</div>
+        <div>테스트2</div>
+        <div>테스트3</div>
     </div>
 </div>
 
