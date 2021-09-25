@@ -75,8 +75,11 @@
         <source src="//bit.ly/3kYMF9A" type="video/mp4">
     </video>
     <div class="text">
-        <p>더 많이! 더 많이!</p>
-        <button class="text" onclick="location.href='/game'">게임 시작</button>
+        <form>
+            <p>Main Test</p>
+            <input type="text" id="userId" name="userId" /> <br>
+            <button class="text" onclick="location.href='/game'">게임 시작</button>
+        </form>
     </div>
 </div>
 
