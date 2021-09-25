@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>더 많이 더 많이</title>
+    <title>메인페이지</title>
 
     <style>
         body {
@@ -66,6 +66,15 @@
             outline:0;
         }
 
+        .input {
+            position: absolute;
+            width: 17%;
+            height: 25px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
     </style>
 </head>
 <body>
@@ -77,7 +86,7 @@
     <div class="text">
         <form>
             <p>Main Test</p>
-            <input type="text" id="userId" name="userId" /> <br>
+            <input type="text" id="userId" name="userId" class="input" /> <br>
             <button class="text" onclick="location.href='/game'">게임 시작</button>
         </form>
     </div>
