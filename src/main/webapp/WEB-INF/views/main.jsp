@@ -84,7 +84,7 @@
         <source src="//bit.ly/3kYMF9A" type="video/mp4">
     </video>
     <div class="text">
-        <form>
+        <form action="/game">
             <p>Main Test</p>
             <input type="text" id="userId" name="userId" class="input" /> <br>
             <button class="text" onclick="location.href='/game'">게임 시작</button>
